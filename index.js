@@ -6,7 +6,8 @@
 
 'use strict';
 
-const FabCar = require('./lib/fabcar');
+const KyC = require('./lib/kyc');
 
-module.exports.FabCar = FabCar;
-module.exports.contracts = [ FabCar ];
+module.exports.KyC = KyC
+
+module.exports.contracts = [ KyC ];
